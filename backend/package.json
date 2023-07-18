@@ -1,0 +1,29 @@
+{
+  "name": "node-quizz-api-az900",
+  "version": "1.0.0",
+  "description": "API de usuarios y preguntas para examen AZ-900",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "sqlite",
+    "express",
+    "users",
+    "quizzes",
+    "bcrypt",
+    "rest-api",
+    "javascript"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^6.7.1",
+    "jsonwebtoken": "^9.0.1",
+    "sqlite3": "^5.0.0"
+  },
+  "author": "Julio Garrido",
+  "license": "ISC"
+}
